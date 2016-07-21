@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D718A0C9363D2673CDD6F8BBCA798BCD2D012C13",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "57B80B00B8D098FCE4AF697556709064A1870985" : 0,
+    "D718A0C9363D2673CDD6F8BBCA798BCD2D012C13" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "635E71AC-885A-4DE6-ACD1-70FF2D3DDB15",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "57B80B00B8D098FCE4AF697556709064A1870985" : "",
+    "D718A0C9363D2673CDD6F8BBCA798BCD2D012C13" : "Beautiful\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Beautiful",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Beautiful\/Beautiful.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/junwangInChina\/JWTestSourceTree.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57B80B00B8D098FCE4AF697556709064A1870985"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/junwangInChina\/Beautiful.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D718A0C9363D2673CDD6F8BBCA798BCD2D012C13"
+    }
+  ]
+}
