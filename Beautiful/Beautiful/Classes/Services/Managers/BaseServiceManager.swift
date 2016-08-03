@@ -22,7 +22,11 @@ class BaseServiceManager: NSObject {
     }
     
     func queryPhoto(index:NSInteger) -> Void {
-        Alamofire.request(.GET, "https://api.500px.com/v1/photos", parameters: ["consumer_key":"HVhSQ8stAClpTASwePsvjFurYn1P3wo7XMPLyWPt"], encoding: .URL, headers: nil).responseJSON { response in
+        Alamofire.request(.GET,
+                          "https://api.500px.com/v1/photos",
+                          parameters: ["consumer_key":"HVhSQ8stAClpTASwePsvjFurYn1P3wo7XMPLyWPt"],
+                          encoding: .URL,
+                          headers: nil).responseJSON { response in
             guard let json = response.result.value else {return}
             
             print("JSON: \(json)")
@@ -30,6 +34,24 @@ class BaseServiceManager: NSObject {
             
             let photoList = PhotoModel.mj_objectArrayWithKeyValuesArray(json["photos"])
             print("photoList : \(photoList)")
+            
+        }
+    }
+    
+    func quertPhotoWalls(pageIndex: NSInteger, complete:(list: NSArray) -> ()) -> Void {
+        Alamofire.request(.GET,
+            "https://api.500px.com/v1/photos",
+            parameters: ["consumer_key":"HVhSQ8stAClpTASwePsvjFurYn1P3wo7XMPLyWPt"],
+            encoding: .URL,
+            headers: nil).responseJSON { response in
+                guard let json = response.result.value else {return}
+                
+                print("JSON: \(json)")
+                
+                
+                let photoList = PhotoModel.mj_objectArrayWithKeyValuesArray(json["photos"])
+                
+                complete(list: photoList)
         }
     }
 }

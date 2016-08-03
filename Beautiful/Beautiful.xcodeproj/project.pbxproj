@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9480A2F7F7B085D471DFC519 /* Pods_Beautiful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3ED94597BC97652352AFA5 /* Pods_Beautiful.framework */; };
+		DA1E66FB1D5043640009B748 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E66FA1D5043640009B748 /* PhotoCell.swift */; };
 		DA5E66D01D3F71B100570C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E66CF1D3F71B100570C10 /* AppDelegate.swift */; };
 		DA5E66D51D3F71B100570C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5E66D31D3F71B100570C10 /* Main.storyboard */; };
 		DA5E66D71D3F71B100570C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5E66D61D3F71B100570C10 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		DA5E67111D40681900570C10 /* BaseServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E670F1D40681900570C10 /* BaseServiceManager.swift */; };
 		DA5E67131D40682C00570C10 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E67121D40682C00570C10 /* PhotoModel.swift */; };
 		DA5E672C1D409EB200570C10 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E672B1D409EB200570C10 /* UserModel.swift */; };
+		DA7B27F51D51EDF9003B65CA /* PhotoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B27F41D51EDF9003B65CA /* PhotoDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,7 @@
 /* Begin PBXFileReference section */
 		6A3ED94597BC97652352AFA5 /* Pods_Beautiful.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beautiful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8DD2B5B8A2B63D03D27A85 /* Pods-Beautiful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beautiful.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beautiful/Pods-Beautiful.debug.xcconfig"; sourceTree = "<group>"; };
+		DA1E66FA1D5043640009B748 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		DA5E66CC1D3F71B100570C10 /* Beautiful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beautiful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5E66CF1D3F71B100570C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA5E66D41D3F71B100570C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		DA5E67121D40682C00570C10 /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		DA5E672A1D4078BA00570C10 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		DA5E672B1D409EB200570C10 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DA7B27F41D51EDF9003B65CA /* PhotoDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailController.swift; sourceTree = "<group>"; };
 		FACA547A8A4C715676E9CAFD /* Pods-Beautiful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beautiful.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beautiful/Pods-Beautiful.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				DA5E67041D3F7FA700570C10 /* PhotoBrowserController.swift */,
+				DA7B27F41D51EDF9003B65CA /* PhotoDetailController.swift */,
+				DA1E66FA1D5043640009B748 /* PhotoCell.swift */,
 			);
 			path = PhotoBrowser;
 			sourceTree = "<group>";
@@ -408,11 +414,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5E67091D3F81E600570C10 /* BaseViewController.swift in Sources */,
+				DA1E66FB1D5043640009B748 /* PhotoCell.swift in Sources */,
 				DA5E66D01D3F71B100570C10 /* AppDelegate.swift in Sources */,
 				DA5E672C1D409EB200570C10 /* UserModel.swift in Sources */,
 				DA5E67111D40681900570C10 /* BaseServiceManager.swift in Sources */,
 				DA5E67031D3F7E9C00570C10 /* RootTabBatController.swift in Sources */,
 				DA5E67131D40682C00570C10 /* PhotoModel.swift in Sources */,
+				DA7B27F51D51EDF9003B65CA /* PhotoDetailController.swift in Sources */,
 				DA5E67051D3F7FA700570C10 /* PhotoBrowserController.swift in Sources */,
 				DA5E67071D3F7FBF00570C10 /* DownloadController.swift in Sources */,
 			);
